@@ -1,0 +1,15 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*-backup.*
+*-old.*
+
+# Local development
+*.log
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp
