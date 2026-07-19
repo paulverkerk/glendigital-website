@@ -60,12 +60,9 @@
         .hero {
             padding: 120px 0 80px;
             text-align: center;
-            background-image: url('./macbook-workspace.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: center;
+            background-image: url('./macbook-workspace.jpg'), linear-gradient(135deg, #1a365d 0%, #2563EB 100%);
+            background-size: cover, cover;
+            background-position: center, center;
             background-attachment: fixed;
             color: white;
             position: relative;
@@ -79,8 +76,6 @@
             right: 0;
             bottom: 0;
             background: rgba(26, 54, 93, 0.6);
-            backdrop-filter: blur(6px);
-            -webkit-backdrop-filter: blur(6px);
         }
         
         /* Mobile: fixed attachment not supported on iOS/mobile browsers */
